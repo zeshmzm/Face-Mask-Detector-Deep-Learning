@@ -1,0 +1,6 @@
+
+The ongoing global pandemic of Covid-19 and the slow progress of vaccination in most countries make the continuation of our newly acquired preventive behaviors inevitable, at least to some degree. Among all the precautionary steps, studies show the association between face masks use
+and significant reduction of the airborne transmission of the virus and hence, the spread of infection. These findings have found object detection field a new mission: Face mask detectors. In this project, we developed a model to determine whether a person uses a mask or not, both on images and live stream videos. Our model uses a deep convolutional neural network as its architecture's backbone. We used RMFD (Real-World Masked Face Dataset) to train and evaluate a CNN-based model and employed OpenCV and PyTorch as our implementation tools. Our final experiment showed 98.9 accuracy in the test phase which is a good result.
+
+In this project, we propose a model based on CNN (Convolutional Neural Network) for face mask detection task. Our model consists of three convolutional layers followed by two fully connected layers. We trained our model on RMFD dataset which is an image dataset with images from 525 different people, 5000 masked and 90000 normal faces.
+
